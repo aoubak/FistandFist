@@ -114,7 +114,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 3rem;
+    padding: 2rem 3rem;
     position: fixed;
     width: 100%;
     background: linear-gradient(to bottom,var(--gradient-color-1),var(--gradient-color-2)) ;
@@ -172,7 +172,7 @@ nav .nav-links.active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 60vh;
     margin-top: 3.4rem; 
     background-image: url();
     background: var(--text-color);
@@ -293,7 +293,7 @@ nav .nav-links.active {
     nav .nav-links{
         display: none;
         position: absolute;
-        top: 48px;
+        top: 63px;
         left: 0;
         right: 0;
         z-index: 1000;
@@ -325,7 +325,7 @@ nav .nav-links.active {
         
     }
     header {
-        padding: 0rem 1rem;
+        padding: .5rem 1rem;
     }
 
 }
@@ -346,8 +346,8 @@ nav .nav-links.active {
         padding: 0 1rem;
     }
     .hero_section{
-        height: 50vh;
-        /* margin: 0; */
+        height: 60vh;
+        margin-top:4rem;
     }
     .hero_section .content{
         display: flex;
@@ -377,15 +377,19 @@ nav .nav-links.active {
     }
     
     .about .about_heading{
-        text-align: center;
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
         margin: 0;
     }
+
     .about .about_contect{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: .5rem;
         color: white;
     
     }
@@ -396,10 +400,13 @@ nav .nav-links.active {
     .about .about_contect .context{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 2rem;
+        align-items: start;
+        text-align: left;
+        /* gap: 2rem; */
 
+    }
+    .about .about_contect .context .about_btn{
+        margin-top: .5rem;
     }
     
 }
