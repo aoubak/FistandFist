@@ -345,10 +345,18 @@ nav .nav-links.active {
     section{
         padding: 0 1rem;
     }
+    .hero_section{
+        height: 50vh;
+        /* margin: 0; */
+    }
     .hero_section .content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: 100%;
     }
     .hero_section .content .title{
+        text-align: left;
         font-size: 3rem;
 
     }
@@ -357,12 +365,13 @@ nav .nav-links.active {
 
     }
     .hero_section .content .description{
+        text-align: left;
         font-size: .8rem;
 
     }
     .hero_section .content .grp_btn{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         font-size: .8rem;
 
     }
